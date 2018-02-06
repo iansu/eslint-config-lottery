@@ -23,11 +23,15 @@ Add `.eslintrc` to Project Root
 ```
 
 
-#FAQ
+# FAQ
 
 **Should I override the rule blah-blah? I don't like it.**
 
-No.
+No.  If you want to do this, you have to ask the team.
+
+**Can I disable the rule on one line in my code, I have a good reason.**
+
+Yes.  That's ok. Use a single-line disable. 
 
 **Are we or can we use the airbnb eslint configuration?**
 
