@@ -50,6 +50,8 @@ module.exports = {
     "no-loops/no-loops": 1,
 
     "node/exports-style": [2, "module.exports"],
+    "node/no-unpublished-require": 0,
+    "node/shebang": 0,
 
     "promise/always-return": 1,
     "promise/no-return-wrap": 2,
@@ -64,6 +66,7 @@ module.exports = {
     "promise/prefer-await-to-then": 1,
     "promise/prefer-await-to-callbacks": 1,
     
+    "lodash/prefer-lodash-method": 0,
     "lodash/prefer-get": 1,
     "lodash/prefer-includes": 1,
     "lodash/prefer-is-nil": 1,
@@ -122,7 +125,7 @@ module.exports = {
     "no-throw-literal": 1,
     "no-trailing-spaces": 1,
     "no-undef-init": 1,
-    "no-underscore-dangle": 1,
+    "no-underscore-dangle": 0,
     "no-unneeded-ternary": 1,
     "no-use-before-define": [1, "nofunc"],
     "no-useless-concat": 1,

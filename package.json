@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lottery",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Offical Lottery.com ESLint Configuration",
   "main": "index.js",
   "repository": "https://github.com/autolotto/eslint-config-lottery.git",
