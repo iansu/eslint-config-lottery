@@ -105,7 +105,8 @@ module.exports = {
     "func-names": [1, "as-needed"],
     "func-style": [1, "declaration", { "allowArrowFunctions": true }],
     "indent": [1, 2, { "SwitchCase": 1 }],
-    "max-len": [1, { "code": 140 }],
+    "keyword-spacing": 1,
+    "max-len": [1, { "code": 140, "ignoreComments": true, "ignoreUrls": true, "ignoreTemplateLiterals": true }],
     "no-array-constructor": 1,
     "no-bitwise": 1,
     "no-console": 0,
@@ -118,6 +119,7 @@ module.exports = {
     "no-lonely-if": 1,
     "no-loop-func": 1,
     "no-mixed-requires": 1,
+    "no-multiple-empty-lines": [1, { "max": 1 }],
     "no-new-require": 1,
     "no-param-reassign": 1,
     "no-process-exit": 0,
@@ -138,7 +140,7 @@ module.exports = {
     "require-await": 0,
     "semi": [2, "always"],
     "space-before-blocks": [1, "always"],
-    "space-before-function-paren": [1, "always"],
+    "space-before-function-paren": [1, "never"],
     "space-infix-ops": 1
   }
 };
