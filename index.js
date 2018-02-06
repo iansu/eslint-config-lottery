@@ -3,8 +3,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:node/recommended",
     "plugin:ava/recommended",
-    "plugin:unicorn/recommended",
-    "plugin:lodash/canonical"
+    "plugin:unicorn/recommended"
   ],
   "plugins": [
     "node",
@@ -59,14 +58,20 @@ module.exports = {
     "promise/catch-or-return": 2,
     "promise/no-native": 0,
     "promise/no-nesting": 1,
-    "promise/no-promise-in-callback": 1,
-    "promise/no-callback-in-promise": 1,
+    "promise/no-promise-in-callback": 0,
+    "promise/no-callback-in-promise": 0,
     "promise/avoid-new": 0,
     "promise/no-return-in-finally": 2,
     "promise/prefer-await-to-then": 1,
     "promise/prefer-await-to-callbacks": 1,
     
     "lodash/prefer-lodash-method": 0,
+    "lodash/matches-prop-shorthand": 0,
+    "lodash/prefer-lodash-chain": 0,
+    "lodash/collection-method-value": 1,
+    "lodash/prop-shorthand": 1,
+    "lodash/prefer-constant": 0,
+    "lodash/prefer-noop": 0,
     "lodash/prefer-get": 1,
     "lodash/prefer-includes": 1,
     "lodash/prefer-is-nil": 1,
