@@ -18,7 +18,7 @@ Add `.eslintrc` to Project Root
 
 ```$javascript
 {
-    extends: "eslint-config-lottery"
+    "extends": "eslint-config-lottery"
 }
 ```
 
