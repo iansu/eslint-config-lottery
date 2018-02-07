@@ -69,7 +69,7 @@ module.exports = {
     "lodash/matches-prop-shorthand": 0,
     "lodash/prefer-lodash-chain": 0,
     "lodash/collection-method-value": 1,
-    "lodash/prop-shorthand": 1,
+    "lodash/prop-shorthand": 0,
     "lodash/prefer-constant": 0,
     "lodash/prefer-noop": 0,
     "lodash/prefer-get": 1,
