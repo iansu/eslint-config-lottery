@@ -3,7 +3,8 @@ module.exports = {
     "eslint:recommended",
     "plugin:node/recommended",
     "plugin:ava/recommended",
-    "plugin:unicorn/recommended"
+    "plugin:unicorn/recommended",
+    "prettier"
   ],
   "plugins": [
     "node",
@@ -12,7 +13,8 @@ module.exports = {
     "no-loops",
     "unicorn",
     "lodash",
-    "destructuring"
+    "destructuring",
+    "prettier"
   ],
   "env": {
     "es6": true,
@@ -64,7 +66,7 @@ module.exports = {
     "promise/no-return-in-finally": 2,
     "promise/prefer-await-to-then": 0,
     "promise/prefer-await-to-callbacks": 0,
-    
+
     "lodash/prefer-lodash-method": 0,
     "lodash/matches-prop-shorthand": 0,
     "lodash/prefer-lodash-chain": 0,
@@ -98,20 +100,12 @@ module.exports = {
     "unicorn/regex-shorthand": 1,
 
     "destructuring/in-params": [1, { "max-params" : 0 }],
-    
-    "arrow-spacing": [1, {"before": true, "after": true}],
-    "block-spacing": [1, "always"],
-    "comma-dangle": [2, "never"],
-    "comma-spacing": [1, { "before": false, "after": true }],
+
     "computed-property-spacing": [1, "never"],
     "dot-notation": [1, { "allowPattern": "^[a-z]+(_[a-z]+)+$" }],
-    "eol-last": [1, "never"],
     "eqeqeq": [1, "smart"],
     "func-names": [1, "as-needed"],
     "func-style": [1, "declaration", { "allowArrowFunctions": true }],
-    "indent": [1, 2, { "SwitchCase": 1 }],
-    "keyword-spacing": 1,
-    "max-len": [1, { "code": 140, "ignoreComments": true, "ignoreUrls": true, "ignoreTemplateLiterals": true }],
     "no-array-constructor": 1,
     "no-bitwise": 1,
     "no-console": 0,
@@ -120,32 +114,23 @@ module.exports = {
     "no-duplicate-imports": 2,
     "no-eval": 2,
     "no-extra-bind": 1,
-    "no-irregular-whitespace": 1,
     "no-lonely-if": 1,
     "no-loop-func": 1,
     "no-mixed-requires": 1,
-    "no-multiple-empty-lines": [1, { "max": 1 }],
     "no-new-require": 1,
     "no-param-reassign": 1,
     "no-process-exit": 0,
     "no-return-await": 1,
     "no-throw-literal": 1,
-    "no-trailing-spaces": 1,
     "no-undef-init": 1,
     "no-underscore-dangle": 0,
     "no-unneeded-ternary": 1,
     "no-use-before-define": [1, "nofunc"],
     "no-useless-concat": 1,
     "no-var": 2,
-    "object-curly-spacing": [1, "always"],
     "object-shorthand": [1, "always"],
     "prefer-const": 1,
     "prefer-template": 1,
-    "quotes": [1, "single", { "allowTemplateLiterals": true }],
-    "require-await": 0,
-    "semi": [2, "always"],
-    "space-before-blocks": [1, "always"],
-    "space-before-function-paren": [1, "never"],
-    "space-infix-ops": 1
+    "require-await": 0
   }
 };
