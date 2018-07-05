@@ -52,7 +52,7 @@ module.exports = {
     "node/no-unpublished-require": 0,
     "node/shebang": 0,
 
-    "promise/always-return": 1,
+    "promise/always-return": 0,
     "promise/no-return-wrap": 2,
     "promise/param-names": 2,
     "promise/catch-or-return": 2,
@@ -62,8 +62,8 @@ module.exports = {
     "promise/no-callback-in-promise": 0,
     "promise/avoid-new": 0,
     "promise/no-return-in-finally": 2,
-    "promise/prefer-await-to-then": 1,
-    "promise/prefer-await-to-callbacks": 1,
+    "promise/prefer-await-to-then": 0,
+    "promise/prefer-await-to-callbacks": 0,
     
     "lodash/prefer-lodash-method": 0,
     "lodash/matches-prop-shorthand": 0,
@@ -81,7 +81,7 @@ module.exports = {
 
     "unicorn/catch-error-name": [1, { "name": "err" }],
     "unicorn/explicit-length-check": 0,
-    "unicorn/filename-case": [1, { "case": "kebabCase" }],
+    "unicorn/filename-case": 0,
     "unicorn/no-abusive-eslint-disable": 2,
     "unicorn/throw-new-error": 2,
     "unicorn/number-literal-case": 2,
