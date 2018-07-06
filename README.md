@@ -38,7 +38,9 @@ Add `.prettierrc` to project root
 }
 ```
 
-### Makde Editorconfig File
+Optional: If there are any files you want to exclude from Prettier add `.prettierignore` to project root
+
+### Make Editorconfig File
 
 Recommended: Add `.editorconfig` to project root
 
@@ -68,9 +70,10 @@ Add scripts for linting and formatting to `package.json`
 
 ```json
 scripts: {
+  "precommit": "lint-staged",
   "lint": "eslint .",
-  "format": "prettier --write \"**/*.{js,json,graphql}\"",
-  "format-check": "prettier --debug-check \"**/*.{js,json,graphql}\""
+  "format:all": "prettier --write \"**/*.{js,json,graphql}\"",
+  "format:check": "prettier --debug-check \"**/*.{js,json,graphql}\""
 }
 ```
 
