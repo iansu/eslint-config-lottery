@@ -13,8 +13,7 @@ module.exports = {
     "no-loops",
     "unicorn",
     "lodash",
-    "destructuring",
-    "prettier"
+    "destructuring"
   ],
   "env": {
     "es6": true,

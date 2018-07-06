@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lottery",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Offical Lottery.com ESLint Configuration",
   "main": "index.js",
   "repository": "https://github.com/autolotto/eslint-config-lottery.git",
@@ -8,7 +8,8 @@
   "license": "UNLICENSED",
   "private": true,
   "peerDependencies": {
-    "eslint": "^4.17.0"
+    "eslint": "^4.17.0",
+    "prettier": "1.13.5"
   },
   "dependencies": {
     "eslint-config-prettier": "^2.9.0",
@@ -17,9 +18,7 @@
     "eslint-plugin-lodash": "^2.6.1",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-node": "^6.0.0",
-    "eslint-plugin-prettier": "^2.6.1",
     "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-unicorn": "^4.0.3",
-    "prettier": "1.13.5"
+    "eslint-plugin-unicorn": "^4.0.3"
   }
 }

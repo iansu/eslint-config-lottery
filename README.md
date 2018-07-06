@@ -1,6 +1,6 @@
 # eslint-config-lottery
 
-This is the official eslint config for lottery.com
+This is the official ESLint config for Lottery.com
 
 ## Installation
 
@@ -11,7 +11,7 @@ This is the official eslint config for lottery.com
 ### Install Peer Dependencies
 
 ```sh
-npm install eslint --save-dev
+npm install eslint lint-staged husky --save-dev
 npm install prettier@1.13.5 --save-dev --save-exact
 ```
 
@@ -56,6 +56,42 @@ max_line_length = 120
 
 [*.md]
 max_line_length = 0
+trim_trailing_whitespace = false
+
+[COMMIT_EDITMSG]
+max_line_length = 0
+```
+
+### Add Scripts
+
+Add scripts for linting and formatting to `package.json`
+
+```json
+scripts: {
+  "lint": "eslint .",
+  "format": "prettier --write \"**/*.{js,json,graphql}\"",
+  "format-check": "prettier --debug-check \"**/*.{js,json,graphql}\""
+}
+```
+
+### Add Precommit Hook
+
+Add a precommit hook to `package.json` to automatically lint and format any files staged for commit
+
+```json
+"lint-staged": {
+  "concurrent": false,
+  "linters": {
+    "*.js": [
+      "eslint --quiet",
+      "git add"
+    ],
+    "*.{js,json,graphql}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
 ```
 
 ## FAQ
