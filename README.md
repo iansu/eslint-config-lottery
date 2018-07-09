@@ -8,6 +8,10 @@ This is the official ESLint config for Lottery.com
 
 `npm install git+https://github.com/autolotto/eslint-config-lottery.git --save-dev`
 
+You can also install a specific version of the package by appending the version tag. For example, to install version `1.0.10`
+
+`npm install git+https://github.com/autolotto/eslint-config-lottery.git#1.0.10 --save-dev`
+
 ### Install Peer Dependencies
 
 ```sh
@@ -96,6 +100,12 @@ Add a precommit hook to `package.json` to automatically lint and format any file
   }
 }
 ```
+
+### Format Code
+
+If you've added Prettier to an existing project you will want to format all the code. The precommit hook only updates files that have been changed and staged for commit. To format the entire codebase run
+
+`npm run format:all`
 
 ## FAQ
 
