@@ -98,7 +98,7 @@ module.exports = {
     "unicorn/import-index": 2,
     "unicorn/regex-shorthand": 1,
 
-    "destructuring/in-params": [1, { "max-params" : 0 }],
+    "destructuring/in-params": [1, { "max-params" : 1 }],
 
     "computed-property-spacing": [1, "never"],
     "dot-notation": [1, { "allowPattern": "^[a-z]+(_[a-z]+)+$" }],
