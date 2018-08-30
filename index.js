@@ -4,7 +4,8 @@ module.exports = {
     "plugin:node/recommended",
     "plugin:ava/recommended",
     "plugin:unicorn/recommended",
-    "prettier"
+    "prettier",
+    "plugin:security/recommended"
   ],
   "plugins": [
     "node",
@@ -13,7 +14,8 @@ module.exports = {
     "no-loops",
     "unicorn",
     "lodash",
-    "destructuring"
+    "destructuring",
+    "security"
   ],
   "env": {
     "es6": true,
