@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/autolotto/eslint-config-lottery.git",
   "author": "Kris Read",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "peerDependencies": {
     "eslint": "^4.17.0",
