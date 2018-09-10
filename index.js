@@ -133,5 +133,7 @@ module.exports = {
     "prefer-const": 1,
     "prefer-template": 1,
     "require-await": 0
+
+    "security/detect-object-injection": 0
   }
 };
