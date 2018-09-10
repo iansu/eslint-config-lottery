@@ -6,17 +6,14 @@ This is the official ESLint config for Lottery.com
 
 ### Install Package
 
-`npm install git+https://github.com/autolotto/eslint-config-lottery.git --save-dev`
+`yarn add --dev eslint-config-lottery`
 
-You can also install a specific version of the package by appending the version tag. For example, to install version `1.0.10`
-
-`npm install git+https://github.com/autolotto/eslint-config-lottery.git#1.0.10 --save-dev`
 
 ### Install Peer Dependencies
 
 ```sh
-npm install eslint lint-staged husky --save-dev
-npm install prettier@1.13.5 --save-dev --save-exact
+yarn add --dev eslint lint-staged husky
+yarn add --dev --exact prettier@1.13.5
 ```
 
 *It is recommended that you install an exact version of Prettier as they may introduce formatting changes in minor versions.*
