@@ -4,7 +4,8 @@ module.exports = {
     "plugin:node/recommended",
     "plugin:ava/recommended",
     "plugin:unicorn/recommended",
-    "prettier"
+    "prettier",
+    "plugin:security/recommended"
   ],
   "plugins": [
     "node",
@@ -13,7 +14,8 @@ module.exports = {
     "no-loops",
     "unicorn",
     "lodash",
-    "destructuring"
+    "destructuring",
+    "security"
   ],
   "env": {
     "es6": true,
@@ -130,6 +132,8 @@ module.exports = {
     "object-shorthand": [1, "always"],
     "prefer-const": 1,
     "prefer-template": 1,
-    "require-await": 0
+    "require-await": 0,
+
+    "security/detect-object-injection": 0
   }
 };
