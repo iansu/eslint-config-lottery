@@ -6,7 +6,7 @@
   "repository": "https://github.com/autolotto/eslint-config-lottery.git",
   "author": "Kris Read",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "peerDependencies": {
     "eslint": "^4.17.0",
     "prettier": "1.13.5"
